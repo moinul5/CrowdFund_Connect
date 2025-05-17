@@ -2,13 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Main_Layout from "./Layout/Main_Layout";
-import Home from "./Components/Home";
-import About from "./Components/About";
+import Home from "./pages/Home";
+import About from "./pages/About";
 import './index.css'
-import News from "./Components/News";
-import Contact_Us from "./Components/Contact_Us";
-import Addcoins from "./Components/Addcoins";
-import Notfound from "./Components/Notfound";
+import News from "./pages/News";
+import Contact_Us from "./pages/Contact_Us";
+import Addcoins from "./Components/Coins/Addcoins";
+import Notfound from "./pages/Notfound";
+import CoinsProvider from "./Components/Coins/CoinsProvider";
 
 const router = createBrowserRouter([
   {
@@ -46,6 +47,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
+    <CoinsProvider>
     <RouterProvider router={router} />
+    </CoinsProvider>
   </React.StrictMode>
 );

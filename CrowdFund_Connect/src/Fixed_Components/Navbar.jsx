@@ -15,7 +15,7 @@ export default function Navbar() {
         </div>
         <div>
           <ul className="flex items-center gap-5">
-            <li className="text-gray-500 hover:text-black font-bold duration-200 hover:underline hover:decoration-sky-500 cursor-pointer">
+            <li className="text-gray-500 hover:text-black font-bold duration-200 hover:underline hover:decoration-[zZz/* ZHFYD;UKAJDShn m */] cursor-pointer">
               <Link to={"/"}>Home</Link>
             </li>
             <li className="text-gray-500 hover:text-black font-bold duration-200 hover:underline hover:decoration-sky-500 cursor-pointer">

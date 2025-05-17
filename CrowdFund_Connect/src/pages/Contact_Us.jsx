@@ -4,7 +4,8 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";import { Toaster, toast } from "sonner";
+
 
 export default function Contact_Us() {
   const initialValues = { name: "", email: "", message: "" };
@@ -23,11 +24,10 @@ export default function Contact_Us() {
   const errors = validate(formValues);
   setformError(errors);
   if (Object.keys(errors).length === 0) {
-    setSuccessMessage("Thank you for your message! We'll get back to you soon.");
+    
     setformValues(initialValues);
-    setTimeout(() => {
-      setSuccessMessage("");
-    }, 5000);
+    toast.success("Message sent");
+    
   }
 };
 
@@ -56,12 +56,17 @@ export default function Contact_Us() {
   };
 
   return (
+
     <div>
-      {successMessage && (
-  <div className="text-green-600 font-medium transition-opacity duration-500 flex w-full justify-center mt-10 mb-10">
-    {successMessage}
-  </div>
-)}
+            <Toaster
+        richColors
+        position="top-right"
+        toastOptions={{
+          style: {
+            marginTop: "80px",
+          }
+        }}
+      />
      <div className="flex w-full justify-center mt-10 mb-10">
         <div className="flex flex-col bg-[#8989fb] w-full max-w-4xl p-8 rounded-xl shadow-lg text-white md:flex-row md:space-x-6 md:space-y-0">
           <div className="flex flex-col justify-between space-y-2 md:space-y-0 md:justify-around">

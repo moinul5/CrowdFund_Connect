@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Clean Water for All",
+    "description": "Help build clean water systems for remote villages in Africa.",
+    "status": "ongoing",
+    "goal": 1000,
+    "raised": 450
+  },
+  {
+    "id": 2,
+    "title": "Education for Girls",
+    "description": "Support scholarships for girls in rural India.",
+    "status": "Recent",
+    "goal": 2000,
+    "raised": 1300
+  },
+  {
+    "id": 3,
+    "title": "Plant One Million Trees",
+    "description": "Join the mission to reforest the Amazon rainforest.",
+    "status": "ongoing", 
+    "goal": 5000,
+    "raised": 3700
+  },
+  {
+    "id": 4,
+    "title": "Emergency Earthquake Relief",
+    "description": "Provide emergency shelter and food to earthquake victims.",
+    "status": "Recent",
+    "goal": 4000,
+    "raised": 3000
+  },
+  {
+    "id": 5,
+    "title": "Build a School in Kenya",
+    "description": "Help construct a new school building in Nairobi.",
+    "status": "ongoing",
+    "goal": 8000,
+    "raised": 2200
+  },
+  {
+    "id": 6,
+    "title": "Support Mental Health Awareness",
+    "description": "Fund mental health support programs for teens.",
+    "status": "ongoing",
+    "goal": 1500,
+    "raised": 900
+  },
+  {
+    "id": 7,
+    "title": "Feeding the Homeless",
+    "description": "Distribute food to the homeless population in New York City.",
+    "status": "Ended",
+    "goal": 2500,
+    "raised": 1250
+  },
+  {
+    "id": 8,
+    "title": "Veterans Housing Program",
+    "description": "Help provide homes for homeless veterans.",
+    "status": "ongoing",
+    "goal": 4000,
+    "raised": 1450
+  },
+  {
+    "id": 9,
+    "title": "Save the Ocean",
+    "description": "Support beach clean-up and ocean plastic removal initiatives.",
+    "status": "Ended",
+    "goal": 6000,
+    "raised": 2750
+  },
+  {
+    "id": 10,
+    "title": "Tech Access for All",
+    "description": "Provide laptops and internet access to underprivileged students.",
+    "status": "ongoing",
+    "goal": 3500,
+    "raised": 1500
+  }
+]

@@ -1,15 +1,17 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useContext, useEffect, useRef, useState } from "react";
 import profile from "../assets/profile.png";
-import Coins from "./Coins";
+import Coins from "./Coins/CoinsProvider";
 import { Link } from "react-router-dom";
 import { GiTwoCoins } from "react-icons/gi";
 import { IoIosPerson } from "react-icons/io";
 import { BsDatabaseAdd } from "react-icons/bs";
+import { CoinContex } from "./Coins/CoinContex";
 
 
 
 export default function Profile() {
   const [open, setOpen] = useState(false);
+  const {coin} = useContext(CoinContex)
 
   const profileRef =useRef()
   const meanRef = useRef()
@@ -38,9 +40,9 @@ export default function Profile() {
 
             <ul onClick={() => setOpen(!open)} className="text-white px-2" >
               <li><IoIosPerson className="inline"/> Moinul</li>
-               <li><GiTwoCoins className="inline"/> Coin: {}</li>
+               <li><GiTwoCoins className="inline"/> Coin: {coin}</li>
               <li className="hover:bg-[#7373d0] cursor-pointer">
-                <Link to={"/AddCoin"}><BsDatabaseAdd className="inline"/> Add Coin</Link>
+                <Link to={"/AddCoin"} className="flex items-center gap-1"><BsDatabaseAdd className="inline"/> <span>Add Coin</span></Link>
               </li>
             </ul>
           </div>
