@@ -60,7 +60,7 @@ export default function FundingDetails() {
       if (parseInt(coin) >= parseInt(SubmitData) && (FundingDetails.status === "ongoing" || FundingDetails.status === "Recent")) {
         setCoin(parseInt(coin) - parseInt(SubmitData));
         toast.success("The fund has been successfully given.");
-      } else if (parseInt(coin) < parseInt(SubmitData) && FundingDetails.status === "ongoing") {
+      } else if (parseInt(coin) < parseInt(SubmitData) && (FundingDetails.status === "ongoing" || FundingDetails.status === "Recent")) {
         navigate("/notenoughcoin")
       }
       else if(FundingDetails.status === "ended"){
