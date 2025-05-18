@@ -2,81 +2,801 @@
   {
     "id": 1,
     "title": "Clean Water for All",
-    "description": "Help build clean water systems for remote villages in Africa.",
+    "description": "Help build clean water systems for remote villages.",
     "status": "ongoing",
-    "goal": 1000,
-    "raised": 450
+    "goal": 3960,
+    "raised": 3624
   },
   {
     "id": 2,
     "title": "Education for Girls",
-    "description": "Support scholarships for girls in rural India.",
-    "status": "Recent",
-    "goal": 2000,
-    "raised": 1300
+    "description": "Support scholarships for underprivileged children.",
+    "status": "ended",
+    "goal": 2048,
+    "raised": 233
   },
   {
     "id": 3,
     "title": "Plant One Million Trees",
-    "description": "Join the mission to reforest the Amazon rainforest.",
-    "status": "ongoing", 
-    "goal": 5000,
-    "raised": 3700
+    "description": "Join the mission to reforest devastated areas.",
+    "status": "Recent",
+    "goal": 1093,
+    "raised": 907
   },
   {
     "id": 4,
     "title": "Emergency Earthquake Relief",
-    "description": "Provide emergency shelter and food to earthquake victims.",
-    "status": "Recent",
-    "goal": 4000,
-    "raised": 3000
+    "description": "Provide emergency shelter and food to victims.",
+    "status": "ongoing",
+    "goal": 1577,
+    "raised": 1453
   },
   {
     "id": 5,
     "title": "Build a School in Kenya",
-    "description": "Help construct a new school building in Nairobi.",
-    "status": "ongoing",
-    "goal": 8000,
-    "raised": 2200
+    "description": "Help construct educational facilities.",
+    "status": "Recent",
+    "goal": 6461,
+    "raised": 462
   },
   {
     "id": 6,
     "title": "Support Mental Health Awareness",
-    "description": "Fund mental health support programs for teens.",
-    "status": "ongoing",
-    "goal": 1500,
-    "raised": 900
+    "description": "Fund mental health programs for teens.",
+    "status": "ended",
+    "goal": 2059,
+    "raised": 1829
   },
   {
     "id": 7,
     "title": "Feeding the Homeless",
-    "description": "Distribute food to the homeless population in New York City.",
-    "status": "Ended",
-    "goal": 2500,
-    "raised": 1250
+    "description": "Distribute food to homeless populations.",
+    "status": "ongoing",
+    "goal": 7933,
+    "raised": 2657
   },
   {
     "id": 8,
     "title": "Veterans Housing Program",
     "description": "Help provide homes for homeless veterans.",
-    "status": "ongoing",
-    "goal": 4000,
-    "raised": 1450
+    "status": "Recent",
+    "goal": 3148,
+    "raised": 2917
   },
   {
     "id": 9,
     "title": "Save the Ocean",
-    "description": "Support beach clean-up and ocean plastic removal initiatives.",
-    "status": "Ended",
-    "goal": 6000,
-    "raised": 2750
+    "description": "Support beach clean-up and plastic removal.",
+    "status": "ongoing",
+    "goal": 3684,
+    "raised": 1890
   },
   {
     "id": 10,
     "title": "Tech Access for All",
-    "description": "Provide laptops and internet access to underprivileged students.",
+    "description": "Provide laptops and internet to students.",
     "status": "ongoing",
-    "goal": 3500,
-    "raised": 1500
+    "goal": 2742,
+    "raised": 17
+  },
+  {
+    "id": 11,
+    "title": "Help Animal Shelters",
+    "description": "Support local animal shelters.",
+    "status": "ongoing",
+    "goal": 6347,
+    "raised": 1359
+  },
+  {
+    "id": 12,
+    "title": "Disaster Relief Fund",
+    "description": "Provide aid after natural disasters.",
+    "status": "ongoing",
+    "goal": 8056,
+    "raised": 2167
+  },
+  {
+    "id": 13,
+    "title": "Youth Sports Programs",
+    "description": "Promote youth participation in sports.",
+    "status": "ended",
+    "goal": 2808,
+    "raised": 2154
+  },
+  {
+    "id": 14,
+    "title": "Medical Aid for Children",
+    "description": "Provide medical aid for children in need.",
+    "status": "Recent",
+    "goal": 4909,
+    "raised": 4776
+  },
+  {
+    "id": 15,
+    "title": "Renewable Energy Projects",
+    "description": "Support renewable energy initiatives.",
+    "status": "ended",
+    "goal": 7162,
+    "raised": 4799
+  },
+  {
+    "id": 16,
+    "title": "Community Gardening",
+    "description": "Promote community gardening efforts.",
+    "status": "Recent",
+    "goal": 1595,
+    "raised": 988
+  },
+  {
+    "id": 17,
+    "title": "Cancer Research Support",
+    "description": "Support cancer research projects.",
+    "status": "ended",
+    "goal": 8572,
+    "raised": 7860
+  },
+  {
+    "id": 18,
+    "title": "LGBTQ+ Support Network",
+    "description": "Create safe spaces for LGBTQ+ youth.",
+    "status": "ongoing",
+    "goal": 4022,
+    "raised": 899
+  },
+  {
+    "id": 19,
+    "title": "Art for Underprivileged",
+    "description": "Support art programs for underprivileged.",
+    "status": "Recent",
+    "goal": 5864,
+    "raised": 1615
+  },
+  {
+    "id": 20,
+    "title": "Clean Air Initiatives",
+    "description": "Promote clean air initiatives.",
+    "status": "ongoing",
+    "goal": 6723,
+    "raised": 1468
+  },
+  {
+    "id": 21,
+    "title": "Wildlife Conservation",
+    "description": "Protect endangered wildlife species.",
+    "status": "Recent",
+    "goal": 9507,
+    "raised": 2571
+  },
+  {
+    "id": 22,
+    "title": "Senior Citizen Support",
+    "description": "Support senior citizens' wellbeing.",
+    "status": "ongoing",
+    "goal": 6561,
+    "raised": 3978
+  },
+  {
+    "id": 23,
+    "title": "Access to Clean Toilets",
+    "description": "Improve access to clean sanitation.",
+    "status": "Recent",
+    "goal": 5820,
+    "raised": 109
+  },
+  {
+    "id": 24,
+    "title": "Fight Hunger",
+    "description": "Fight hunger in urban communities.",
+    "status": "ongoing",
+    "goal": 3160,
+    "raised": 2833
+  },
+  {
+    "id": 25,
+    "title": "Support Local Farmers",
+    "description": "Support sustainable farming practices.",
+    "status": "ongoing",
+    "goal": 2545,
+    "raised": 1593
+  },
+  {
+    "id": 26,
+    "title": "Child Literacy Campaign",
+    "description": "Promote child literacy programs.",
+    "status": "ongoing",
+    "goal": 8044,
+    "raised": 7832
+  },
+  {
+    "id": 27,
+    "title": "Affordable Housing",
+    "description": "Develop affordable housing solutions.",
+    "status": "Recent",
+    "goal": 8409,
+    "raised": 4203
+  },
+  {
+    "id": 28,
+    "title": "Disability Support",
+    "description": "Support people with disabilities.",
+    "status": "Recent",
+    "goal": 5380,
+    "raised": 4832
+  },
+  {
+    "id": 29,
+    "title": "Emergency Fire Relief",
+    "description": "Provide relief after fires.",
+    "status": "ended",
+    "goal": 5471,
+    "raised": 4725
+  },
+  {
+    "id": 30,
+    "title": "Support Refugees",
+    "description": "Help refugees rebuild their lives.",
+    "status": "ended",
+    "goal": 7737,
+    "raised": 82
+  },
+  {
+    "id": 31,
+    "title": "Domestic Violence Aid",
+    "description": "Aid domestic violence survivors.",
+    "status": "ended",
+    "goal": 9043,
+    "raised": 5856
+  },
+  {
+    "id": 32,
+    "title": "Environmental Education",
+    "description": "Educate communities about environment.",
+    "status": "ongoing",
+    "goal": 4157,
+    "raised": 1616
+  },
+  {
+    "id": 33,
+    "title": "Women Empowerment",
+    "description": "Empower women through programs.",
+    "status": "ended",
+    "goal": 7593,
+    "raised": 5479
+  },
+  {
+    "id": 34,
+    "title": "Disaster Preparedness",
+    "description": "Improve disaster preparedness.",
+    "status": "ended",
+    "goal": 2972,
+    "raised": 2146
+  },
+  {
+    "id": 35,
+    "title": "Free Legal Aid",
+    "description": "Provide free legal assistance.",
+    "status": "ongoing",
+    "goal": 8856,
+    "raised": 4231
+  },
+  {
+    "id": 36,
+    "title": "Mental Health Counseling",
+    "description": "Offer mental health counseling services.",
+    "status": "ongoing",
+    "goal": 3922,
+    "raised": 79
+  },
+  {
+    "id": 37,
+    "title": "Ocean Wildlife Rescue",
+    "description": "Rescue and rehabilitate ocean wildlife.",
+    "status": "Recent",
+    "goal": 7316,
+    "raised": 2948
+  },
+  {
+    "id": 38,
+    "title": "Anti-Bullying Campaign",
+    "description": "Run anti-bullying campaigns in schools.",
+    "status": "ended",
+    "goal": 2567,
+    "raised": 1001
+  },
+  {
+    "id": 39,
+    "title": "Cultural Heritage Preservation",
+    "description": "Preserve cultural heritage sites.",
+    "status": "ongoing",
+    "goal": 4578,
+    "raised": 783
+  },
+  {
+    "id": 40,
+    "title": "Youth Leadership Training",
+    "description": "Train youth leaders for the future.",
+    "status": "ended",
+    "goal": 9995,
+    "raised": 7633
+  },
+  {
+    "id": 41,
+    "title": "Food Waste Reduction",
+    "description": "Reduce food waste in communities.",
+    "status": "ongoing",
+    "goal": 7888,
+    "raised": 6895
+  },
+  {
+    "id": 42,
+    "title": "Water Sanitation Projects",
+    "description": "Improve water sanitation systems.",
+    "status": "ended",
+    "goal": 8012,
+    "raised": 243
+  },
+  {
+    "id": 43,
+    "title": "Support for Veterans",
+    "description": "Support veterans with resources.",
+    "status": "Recent",
+    "goal": 4241,
+    "raised": 2357
+  },
+  {
+    "id": 44,
+    "title": "Tech Skills Training",
+    "description": "Provide tech training to underserved.",
+    "status": "ended",
+    "goal": 5145,
+    "raised": 769
+  },
+  {
+    "id": 45,
+    "title": "Homelessness Prevention",
+    "description": "Prevent homelessness through support.",
+    "status": "ended",
+    "goal": 9202,
+    "raised": 632
+  },
+  {
+    "id": 46,
+    "title": "Park Restoration",
+    "description": "Restore local parks and green spaces.",
+    "status": "ended",
+    "goal": 1688,
+    "raised": 439
+  },
+  {
+    "id": 47,
+    "title": "Child Nutrition Programs",
+    "description": "Improve child nutrition programs.",
+    "status": "ended",
+    "goal": 1932,
+    "raised": 1344
+  },
+  {
+    "id": 48,
+    "title": "Clean Energy Education",
+    "description": "Educate about clean energy benefits.",
+    "status": "ended",
+    "goal": 8586,
+    "raised": 1828
+  },
+  {
+    "id": 49,
+    "title": "Road Safety Campaign",
+    "description": "Promote road safety awareness.",
+    "status": "Recent",
+    "goal": 8837,
+    "raised": 3719
+  },
+  {
+    "id": 50,
+    "title": "Emergency Medical Supplies",
+    "description": "Supply emergency medical equipment.",
+    "status": "ended",
+    "goal": 7257,
+    "raised": 7067
+  },
+  {
+    "id": 51,
+    "title": "Solar Power for Schools",
+    "description": "Install solar power in schools.",
+    "status": "ongoing",
+    "goal": 4003,
+    "raised": 796
+  },
+  {
+    "id": 52,
+    "title": "Anti-Poaching Efforts",
+    "description": "Support anti-poaching efforts.",
+    "status": "ended",
+    "goal": 6199,
+    "raised": 1748
+  },
+  {
+    "id": 53,
+    "title": "Disability Sports Programs",
+    "description": "Develop sports programs for disabled.",
+    "status": "ongoing",
+    "goal": 7627,
+    "raised": 695
+  },
+  {
+    "id": 54,
+    "title": "HIV/AIDS Awareness",
+    "description": "Raise awareness about HIV/AIDS.",
+    "status": "ongoing",
+    "goal": 9115,
+    "raised": 8634
+  },
+  {
+    "id": 55,
+    "title": "Public Health Campaigns",
+    "description": "Run public health awareness campaigns.",
+    "status": "ended",
+    "goal": 4843,
+    "raised": 1549
+  },
+  {
+    "id": 56,
+    "title": "Animal Rescue Missions",
+    "description": "Conduct animal rescue operations.",
+    "status": "Recent",
+    "goal": 3237,
+    "raised": 1685
+  },
+  {
+    "id": 57,
+    "title": "Safe Drinking Water",
+    "description": "Ensure access to safe drinking water.",
+    "status": "ongoing",
+    "goal": 3424,
+    "raised": 2703
+  },
+  {
+    "id": 58,
+    "title": "Support for Orphans",
+    "description": "Support orphaned children.",
+    "status": "ended",
+    "goal": 1444,
+    "raised": 606
+  },
+  {
+    "id": 59,
+    "title": "Environmental Cleanup",
+    "description": "Organize environmental cleanup drives.",
+    "status": "ongoing",
+    "goal": 2164,
+    "raised": 79
+  },
+  {
+    "id": 60,
+    "title": "Wildfire Recovery",
+    "description": "Assist wildfire affected communities.",
+    "status": "Recent",
+    "goal": 8935,
+    "raised": 6623
+  },
+  {
+    "id": 61,
+    "title": "Education for Refugees",
+    "description": "Educate refugee children.",
+    "status": "Recent",
+    "goal": 3231,
+    "raised": 1345
+  },
+  {
+    "id": 62,
+    "title": "Community Health Clinics",
+    "description": "Establish community health clinics.",
+    "status": "ended",
+    "goal": 2171,
+    "raised": 1706
+  },
+  {
+    "id": 63,
+    "title": "Rainforest Protection",
+    "description": "Protect rainforests worldwide.",
+    "status": "ongoing",
+    "goal": 1444,
+    "raised": 1283
+  },
+  {
+    "id": 64,
+    "title": "Water Access in Africa",
+    "description": "Provide water access in Africa.",
+    "status": "ended",
+    "goal": 9581,
+    "raised": 4653
+  },
+  {
+    "id": 65,
+    "title": "Disaster Recovery Kits",
+    "description": "Distribute disaster recovery kits.",
+    "status": "Recent",
+    "goal": 1351,
+    "raised": 1263
+  },
+  {
+    "id": 66,
+    "title": "Youth Employment",
+    "description": "Create youth employment opportunities.",
+    "status": "ended",
+    "goal": 5895,
+    "raised": 2319
+  },
+  {
+    "id": 67,
+    "title": "Crisis Counseling",
+    "description": "Provide crisis counseling services.",
+    "status": "Recent",
+    "goal": 2377,
+    "raised": 435
+  },
+  {
+    "id": 68,
+    "title": "Homeless Shelter Support",
+    "description": "Support homeless shelter operations.",
+    "status": "ended",
+    "goal": 1697,
+    "raised": 1235
+  },
+  {
+    "id": 69,
+    "title": "Cancer Patient Aid",
+    "description": "Aid cancer patients financially.",
+    "status": "ongoing",
+    "goal": 2712,
+    "raised": 1156
+  },
+  {
+    "id": 70,
+    "title": "Food Bank Donations",
+    "description": "Donate to local food banks.",
+    "status": "ended",
+    "goal": 5788,
+    "raised": 35
+  },
+  {
+    "id": 71,
+    "title": "Clean Energy Installation",
+    "description": "Install clean energy systems.",
+    "status": "ended",
+    "goal": 9821,
+    "raised": 8891
+  },
+  {
+    "id": 72,
+    "title": "School Supplies for Kids",
+    "description": "Supply school kids with essentials.",
+    "status": "ongoing",
+    "goal": 2706,
+    "raised": 313
+  },
+  {
+    "id": 73,
+    "title": "Solar Lighting Projects",
+    "description": "Install solar lighting in villages.",
+    "status": "ongoing",
+    "goal": 4854,
+    "raised": 602
+  },
+  {
+    "id": 74,
+    "title": "Disaster Relief Training",
+    "description": "Train volunteers for disaster relief.",
+    "status": "ended",
+    "goal": 5996,
+    "raised": 3752
+  },
+  {
+    "id": 75,
+    "title": "Elderly Care Programs",
+    "description": "Support elderly care programs.",
+    "status": "ongoing",
+    "goal": 7065,
+    "raised": 6731
+  },
+  {
+    "id": 76,
+    "title": "Support for Single Parents",
+    "description": "Aid single parents financially.",
+    "status": "Recent",
+    "goal": 9784,
+    "raised": 827
+  },
+  {
+    "id": 77,
+    "title": "Clean Rivers Initiative",
+    "description": "Promote clean river initiatives.",
+    "status": "ongoing",
+    "goal": 1014,
+    "raised": 737
+  },
+  {
+    "id": 78,
+    "title": "Anti-Trafficking Programs",
+    "description": "Combat human trafficking.",
+    "status": "ongoing",
+    "goal": 3328,
+    "raised": 930
+  },
+  {
+    "id": 79,
+    "title": "Youth Arts Workshops",
+    "description": "Organize youth arts workshops.",
+    "status": "ongoing",
+    "goal": 8263,
+    "raised": 3494
+  },
+  {
+    "id": 80,
+    "title": "Water Conservation",
+    "description": "Educate about water conservation.",
+    "status": "ongoing",
+    "goal": 6833,
+    "raised": 261
+  },
+  {
+    "id": 81,
+    "title": "Disaster Early Warning",
+    "description": "Develop disaster early warning systems.",
+    "status": "ended",
+    "goal": 6481,
+    "raised": 4049
+  },
+  {
+    "id": 82,
+    "title": "Support for Veterans' Families",
+    "description": "Support veterans' family needs.",
+    "status": "ended",
+    "goal": 9483,
+    "raised": 7591
+  },
+  {
+    "id": 83,
+    "title": "Community Literacy",
+    "description": "Promote community literacy programs.",
+    "status": "ended",
+    "goal": 3569,
+    "raised": 1407
+  },
+  {
+    "id": 84,
+    "title": "Mental Health Awareness",
+    "description": "Raise mental health awareness.",
+    "status": "Recent",
+    "goal": 3188,
+    "raised": 1803
+  },
+  {
+    "id": 85,
+    "title": "Renewable Energy Research",
+    "description": "Research renewable energy technologies.",
+    "status": "ongoing",
+    "goal": 2891,
+    "raised": 1153
+  },
+  {
+    "id": 86,
+    "title": "Affordable Healthcare",
+    "description": "Provide affordable healthcare services.",
+    "status": "Recent",
+    "goal": 9326,
+    "raised": 4692
+  },
+  {
+    "id": 87,
+    "title": "Food Security Programs",
+    "description": "Ensure food security in communities.",
+    "status": "ended",
+    "goal": 6862,
+    "raised": 905
+  },
+  {
+    "id": 88,
+    "title": "Clean Energy Research",
+    "description": "Research clean energy alternatives.",
+    "status": "ended",
+    "goal": 5566,
+    "raised": 236
+  },
+  {
+    "id": 89,
+    "title": "Urban Farming",
+    "description": "Promote urban farming initiatives.",
+    "status": "ended",
+    "goal": 4844,
+    "raised": 3861
+  },
+  {
+    "id": 90,
+    "title": "Hunger Relief",
+    "description": "Relieve hunger in impoverished areas.",
+    "status": "ongoing",
+    "goal": 3129,
+    "raised": 1649
+  },
+  {
+    "id": 91,
+    "title": "Education Infrastructure",
+    "description": "Build education infrastructure.",
+    "status": "Recent",
+    "goal": 9815,
+    "raised": 6478
+  },
+  {
+    "id": 92,
+    "title": "Disability Advocacy",
+    "description": "Advocate for disability rights.",
+    "status": "Recent",
+    "goal": 5348,
+    "raised": 3758
+  },
+  {
+    "id": 93,
+    "title": "Homeless Outreach",
+    "description": "Conduct homeless outreach programs.",
+    "status": "ongoing",
+    "goal": 8237,
+    "raised": 5737
+  },
+  {
+    "id": 94,
+    "title": "Emergency Food Supplies",
+    "description": "Distribute emergency food supplies.",
+    "status": "ongoing",
+    "goal": 5977,
+    "raised": 2517
+  },
+  {
+    "id": 95,
+    "title": "Child Protection Services",
+    "description": "Protect children from abuse.",
+    "status": "ended",
+    "goal": 3088,
+    "raised": 2412
+  },
+  {
+    "id": 96,
+    "title": "Clean Ocean Campaign",
+    "description": "Campaign for clean oceans.",
+    "status": "Recent",
+    "goal": 7341,
+    "raised": 4928
+  },
+  {
+    "id": 97,
+    "title": "Solar Energy for Villages",
+    "description": "Bring solar energy to villages.",
+    "status": "Recent",
+    "goal": 8430,
+    "raised": 5373
+  },
+  {
+    "id": 98,
+    "title": "Community Mental Health",
+    "description": "Support community mental health.",
+    "status": "ended",
+    "goal": 4550,
+    "raised": 2558
+  },
+  {
+    "id": 99,
+    "title": "Public Sanitation",
+    "description": "Improve public sanitation facilities.",
+    "status": "Recent",
+    "goal": 2214,
+    "raised": 1321
+  },
+  {
+    "id": 100,
+    "title": "Youth Sports Facilities",
+    "description": "Build youth sports facilities.",
+    "status": "ended",
+    "goal": 7176,
+    "raised": 1671
   }
 ]

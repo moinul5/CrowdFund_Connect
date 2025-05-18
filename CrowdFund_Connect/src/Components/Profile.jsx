@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useRef, useState } from "react";
 import profile from "../assets/profile.png";
-import Coins from "./Coins/CoinsProvider";
 import { Link } from "react-router-dom";
 import { GiTwoCoins } from "react-icons/gi";
 import { IoIosPerson } from "react-icons/io";
@@ -35,7 +34,6 @@ export default function Profile() {
 
         {open && (
           <div ref={meanRef} className="absolute bg-[#8989fb]  p-2 w-35 shadow-lg font-semibold mt-3 -left-6   rounded-2xl" >
-            {/* arrow towards profile pic*/}
             <div class="absolute -top-2 left-9 w-4 h-4 bg-[#8989fb] rotate-45"></div>
 
             <ul onClick={() => setOpen(!open)} className="text-white px-2" >

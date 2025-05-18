@@ -1,13 +1,14 @@
 import React, { useContext, useState } from "react";
 import { IoAddCircle } from "react-icons/io5";
-import { toast } from "sonner";
+import { toast, Toaster } from "sonner";
 import { CoinContex } from "./CoinContex";
-import CoinModal from "./CoinModal";
+import { useNavigate } from "react-router-dom";
 
 export default function Addcoins() {
   const [fromValue, setfromValue] = useState("");
   const [checkError, setCheckError] = useState("");
-  const {coin, setCoin} = useContext(CoinContex);
+  const { coin, setCoin } = useContext(CoinContex);
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     setfromValue(e.target.value);
@@ -20,10 +21,11 @@ export default function Addcoins() {
     if (error) {
       setCheckError(error);
     } else {
-      setCoin(Number(coin)+Number(fromValue));
+      setCoin(Number(coin) + Number(fromValue));
       toast.success("The coin has added");
       setCheckError("");
       setfromValue("");
+      navigate("/coin-modal");
     }
   };
 
@@ -38,7 +40,6 @@ export default function Addcoins() {
 
   return (
     <div>
-     <CoinModal/>
       <form onSubmit={handleSubmit}>
         <div className="flex w-full justify-center mt-40 mb-10 md:mt-20">
           <div className="flex flex-col gap-4 bg-gray-250 p-6 rounded-lg w-full max-w-sm shadow-md border-1 border-[#8989fb]">
