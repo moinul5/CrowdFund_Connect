@@ -84,7 +84,7 @@ export default function FundingDetails() {
     <div>
       <CoinModal />
       <form onSubmit={handleSubmit}>
-        <div className="flex w-full justify-center mt-40 mb-10 md:mt-20">
+        <div className="flex w-full justify-center mt-20 mb-10">
           <div className="flex flex-col gap-4 bg-gray-250 p-6 rounded-lg w-full max-w-sm shadow-md border-1 border-[#8989fb]">
             <div>
               <FundingCard

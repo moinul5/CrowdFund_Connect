@@ -42,7 +42,7 @@ const router = createBrowserRouter([
         element: <Addcoins />,
       },
       {
-        path: "/donation",
+        path: "/donate",
         element: <Donation />,
       },
       {

@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 export default function CoinModal() {
   return (
@@ -13,13 +13,9 @@ export default function CoinModal() {
         className="bg-[#8989fb] hover:bg-[#6a6ae0] mt-3 active:bg-[#4e4ebf] flex items-center justify-center gap-1 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm cursor-pointer"
       >
         <div className="flex flex-row justify-center items-center">
-          <Link to={"/"}>
-          
-Donate
-          </Link>
-
+          <Link to={"/donate"}>Donate</Link>
         </div>
       </button>
     </div>
-  )
+  );
 }

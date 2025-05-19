@@ -67,7 +67,7 @@ export default function Contact_Us() {
           }
         }}
       />
-     <div className="flex w-full justify-center mt-10 mb-10">
+     <div className="flex w-full justify-center mt-10 mb-10 p-2">
         <div className="flex flex-col bg-[#8989fb] w-full max-w-4xl p-8 rounded-xl shadow-lg text-white md:flex-row md:space-x-6 md:space-y-0">
           <div className="flex flex-col justify-between space-y-2 md:space-y-0 md:justify-around">
             <div>

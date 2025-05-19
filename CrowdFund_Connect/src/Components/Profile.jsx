@@ -29,7 +29,7 @@ export default function Profile() {
           src={profile}
           onClick={() => setOpen(!open)}
           alt=""
-          className="h-10 mr-20 cursor-pointer "
+          className="h-10 md:mr-20 mr-0 cursor-pointer "
         />
 
         {open && (

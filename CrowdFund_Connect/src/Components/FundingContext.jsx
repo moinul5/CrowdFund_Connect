@@ -24,7 +24,6 @@ export default function FundingProvider({children}) {
         }
 
         fetchFundings();
-        console.log(data);
     },[])
   return (
     <FundingContext.Provider value={{fundingData, setFundingData, loading}}>
